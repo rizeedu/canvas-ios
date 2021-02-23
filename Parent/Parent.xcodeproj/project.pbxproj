@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		10D2561387D72D8ADE7CF044 /* Pods_parent_defaults_ParentUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F81215C648C522BCD82F22E /* Pods_parent_defaults_ParentUnitTests.framework */; };
 		2C61CD091D9311B400196C03 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C61CD0B1D9311B400196C03 /* Localizable.strings */; };
-		2C75AB951DDF62CA00650856 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C75AB941DDF62CA00650856 /* AssetsLibrary.framework */; };
 		2C75AB971DDF62CF00650856 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C75AB961DDF62CF00650856 /* CoreTelephony.framework */; };
 		2C75AB991DDF62D500650856 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C75AB981DDF62D500650856 /* CoreText.framework */; };
 		2C75AB9B1DDF62DA00650856 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C75AB9A1DDF62DA00650856 /* CoreMedia.framework */; };
@@ -373,7 +372,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BD0CD732327026400B3341E /* Core.framework in Frameworks */,
-				2C75AB951DDF62CA00650856 /* AssetsLibrary.framework in Frameworks */,
 				2C75AB9D1DDF62E000650856 /* AVFoundation.framework in Frameworks */,
 				5E75B6001C4D4A8E00A44160 /* CoreData.framework in Frameworks */,
 				2C75AB9B1DDF62DA00650856 /* CoreMedia.framework in Frameworks */,

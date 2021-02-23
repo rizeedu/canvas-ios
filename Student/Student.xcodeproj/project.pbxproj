@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		15896A9B5518ABFFAE2FDCAE /* Pods_needs_pspdfkit_StudentE2ETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9D739AAC5FF4C6AAF4F8A7 /* Pods_needs_pspdfkit_StudentE2ETests.framework */; };
 		2C0CAD751DEF6C33008D90FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CAD771DEF6C33008D90FA /* InfoPlist.strings */; };
-		2C67B0C61E01F05A00DDD191 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C67B0C51E01F05A00DDD191 /* AssetsLibrary.framework */; };
 		2C67B0C81E01F05F00DDD191 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C67B0C71E01F05F00DDD191 /* CoreTelephony.framework */; };
 		2C67B0CA1E01F06300DDD191 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C67B0C91E01F06300DDD191 /* CoreText.framework */; };
 		2C67B0CC1E01F06800DDD191 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C67B0CB1E01F06800DDD191 /* CoreMedia.framework */; };
@@ -890,7 +889,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1B4E992252641C300B0DDD8 /* Lottie in Frameworks */,
-				2C67B0C61E01F05A00DDD191 /* AssetsLibrary.framework in Frameworks */,
 				61F438E31DD4E60B00552D14 /* AVFoundation.framework in Frameworks */,
 				7DBF920222690E9400710D0F /* CanvasCore.framework in Frameworks */,
 				7D1D7E05213743D300F7CCFE /* Core.framework in Frameworks */,
