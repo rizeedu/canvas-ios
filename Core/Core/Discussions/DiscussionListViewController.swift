@@ -88,7 +88,7 @@ public class DiscussionListViewController: UIViewController, ColoredNavViewProto
 
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "\(context.pathComponent)/discussion_topics", attributes: [:])
+        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "/\(context.pathComponent)/discussion_topics", attributes: [:])
     }
 
     @objc func refresh() {

@@ -174,7 +174,7 @@ public class DiscussionDetailsViewController: UIViewController, ColoredNavViewPr
 
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "\(context.pathComponent)/\(isAnnouncement ? "announcements" : "discussion_topics")/\(topicID)", attributes: [:])
+        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "/\(context.pathComponent)/\(isAnnouncement ? "announcements" : "discussion_topics")/\(topicID)", attributes: [:])
     }
 
     deinit {

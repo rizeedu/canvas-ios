@@ -87,7 +87,7 @@ public class AnnouncementListViewController: UIViewController, ColoredNavViewPro
 
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "\(context.pathComponent)/announcements", attributes: [:])
+        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "/\(context.pathComponent)/announcements", attributes: [:])
     }
 
     @objc func refresh() {

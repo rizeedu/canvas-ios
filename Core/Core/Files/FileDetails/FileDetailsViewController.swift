@@ -115,7 +115,11 @@ public class FileDetailsViewController: UIViewController, CoreWebViewLinkDelegat
         super.viewWillDisappear(animated)
         saveAnnotations()
         downloadTask?.cancel()
-        stopTrackingTimeOnViewController(eventName: "\(context?.pathComponent ?? "")/files/\(fileID)")
+        guard let pathComponent = context?.pathComponent else {
+            stopTrackingTimeOnViewController(eventName: "/files/\(fileID)")
+            return
+        }
+        stopTrackingTimeOnViewController(eventName: "/\(pathComponent)/files/\(fileID)")
     }
 
     @objc func fileEdited(_ notification: NSNotification) {

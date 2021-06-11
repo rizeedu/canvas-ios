@@ -108,7 +108,7 @@ class SubmissionListViewController: UIViewController, ColoredNavViewProtocol {
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         env.pageViewLogger.stopTrackingTimeOnViewController(
-            eventName: "\(context.pathComponent)/assignments/\(assignmentID)/submissions",
+            eventName: "/\(context.pathComponent)/assignments/\(assignmentID)/submissions",
             attributes: [:]
         )
     }

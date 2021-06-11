@@ -99,7 +99,7 @@ public class PageListViewController: UIViewController, ColoredNavViewProtocol {
 
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "\(context.pathComponent)/pages", attributes: [:])
+        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "/\(context.pathComponent)/pages", attributes: [:])
     }
 
     func updateNavBar() {

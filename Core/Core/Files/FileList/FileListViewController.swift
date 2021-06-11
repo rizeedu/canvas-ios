@@ -122,7 +122,7 @@ public class FileListViewController: UIViewController, ColoredNavViewProtocol {
 
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        var eventName = "\(context == .currentUser ? "" : context.pathComponent)/files"
+        var eventName = "/\(context == .currentUser ? "" : context.pathComponent)/files"
         if !path.isEmpty {
             eventName += "/folder/\(path)"
         }

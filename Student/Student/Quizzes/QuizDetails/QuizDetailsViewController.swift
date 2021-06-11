@@ -108,7 +108,7 @@ class QuizDetailsViewController: UIViewController, ColoredNavViewProtocol, CoreW
 
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "courses/\(courseID)/quizzes/\(quizID)", attributes: [:])
+        env.pageViewLogger.stopTrackingTimeOnViewController(eventName: "/courses/\(courseID)/quizzes/\(quizID)", attributes: [:])
     }
 
     @objc func refresh() {
