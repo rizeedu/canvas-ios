@@ -3546,6 +3546,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = B6333T4PXQ;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -3555,6 +3556,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.GradesWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -3580,6 +3582,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = B6333T4PXQ;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -3589,6 +3592,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.GradesWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -3718,6 +3722,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = B6333T4PXQ;
 				ENABLE_BITCODE = NO;
@@ -3727,7 +3732,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3748,6 +3753,7 @@
 				CODE_SIGN_ENTITLEMENTS = Student/Student.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = B6333T4PXQ;
 				ENABLE_BITCODE = NO;
@@ -3757,7 +3763,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Student/Student-Bridging-Header.h";
@@ -3893,6 +3899,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = B6333T4PXQ;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = SubmitAssignment/Info.plist;
@@ -3901,6 +3908,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.SubmitAssignment;
@@ -3923,6 +3931,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = B6333T4PXQ;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = SubmitAssignment/Info.plist;
@@ -3931,6 +3940,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.SubmitAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
