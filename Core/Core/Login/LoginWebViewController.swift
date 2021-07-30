@@ -118,13 +118,8 @@ public class LoginWebViewController: UIViewController, ErrorViewController {
             return loadLoginWebRequest()
         }
 
-        // Lookup OAuth from mobile verify
         task?.cancel()
-        task = API().makeRequest(GetMobileVerifyRequest(domain: host)) { [weak self] (response, _, _) in performUIUpdate {
-            self?.mobileVerifyModel = response
-            self?.task = nil
-            self?.loadLoginWebRequest()
-        } }
+        loadLoginWebRequest()
     }
 
     public override func viewWillAppear(_ animated: Bool) {
@@ -139,8 +134,14 @@ public class LoginWebViewController: UIViewController, ErrorViewController {
     }
 
     func loadLoginWebRequest() {
+        mobileVerifyModel = APIVerifyClient(authorized: true,
+                                            base_url: URL(string: Constants.host),
+                                            client_id: Constants.clientID,
+                                            client_secret: Constants.clientSecret)
         if let verify = mobileVerifyModel, let url = verify.base_url, let clientID = verify.client_id {
-            let requestable = LoginWebRequest(authMethod: method, clientID: clientID, provider: authenticationProvider)
+            let requestable = LoginWebRequest(authMethod: method,
+                                              clientID: clientID,
+                                              provider: authenticationProvider)
             if let request = try? requestable.urlRequest(relativeTo: url, accessToken: nil, actAsUserID: nil) {
                 webView.load(request)
             }
@@ -159,8 +160,8 @@ extension LoginWebViewController: WKNavigationDelegate {
         }
 
         let queryItems = components.queryItems
-        if // wait for "https://canvas/login?code="
-            url.absoluteString.hasPrefix("https://canvas/login"),
+        if // wait for "https://canvas.rize.education/login?code="
+            url.absoluteString.hasPrefix("\(Constants.host)/login"),
             let code = queryItems?.first(where: { $0.name == "code" })?.value, !code.isEmpty,
             let mobileVerify = mobileVerifyModel, let baseURL = mobileVerify.base_url {
             task?.cancel()

@@ -63,6 +63,7 @@ public extension UIColor {
     static let textSuccess = UIColor(named: "textSuccess", in: .core, compatibleWith: nil)!
     static let textWarning = UIColor(named: "textWarning", in: .core, compatibleWith: nil)!
     static let tiara = UIColor(named: "tiara", in: .core, compatibleWith: nil)!
+    static let rizeBlue = UIColor(named: "rizeBlue", in: .core, compatibleWith: nil)!
 }
 
 public extension Color {

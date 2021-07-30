@@ -23,10 +23,9 @@ public class LoginNavigationController: UINavigationController {
     var app: App = .student
 
     public static func create(loginDelegate: LoginDelegate, fromLaunch: Bool = false, app: App) -> LoginNavigationController {
-		let startView = LoginWebViewController.create(authenticationProvider: nil,
-													  host: "https://canvas.rize.education",
+        let startView = LoginWebViewController.create(host: Constants.host,
 													  loginDelegate: loginDelegate,
-													  method: .canvasLogin)
+                                                      method: .normalLogin)
         let controller = LoginNavigationController(rootViewController: startView)
         controller.app = app
         controller.loginDelegate = loginDelegate

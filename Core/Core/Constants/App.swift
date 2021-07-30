@@ -23,3 +23,9 @@ public enum App: String {
     case teacher
     case parent
 }
+
+public enum Constants {
+    static let host: String = "https://canvas.rize.education"
+    static let clientID: String = "10000000000003"
+    static let clientSecret: String = "T30T6OERMrw6ME9Bhqgxx2S3vcGuNANpxem7CF5CS30UWVPIHTvpvrOxiKlA2gtX"
+}

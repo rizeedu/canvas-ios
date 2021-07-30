@@ -173,7 +173,7 @@ extension LoginFindSchoolViewController: UITableViewDataSource, UITableViewDeleg
             loginDelegate?.openExternalURL(url)
         } else {
             let account = accounts[indexPath.row]
-            showLoginForHost("http://192.53.120.156:8000/", authenticationProvider: account.authentication_provider)
+            showLoginForHost(account.domain, authenticationProvider: account.authentication_provider)
         }
     }
 }
