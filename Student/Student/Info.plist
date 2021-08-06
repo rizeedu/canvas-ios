@@ -56,9 +56,9 @@
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
-	<true/>
+	<false/>
 	<key>ITSEncryptionExportComplianceCode</key>
-	<string>7bb091ae-4a93-44ec-bb77-ff69e62c1f50</string>
+	<string></string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
