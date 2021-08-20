@@ -23,3 +23,22 @@ public enum App: String {
     case teacher
     case parent
 }
+
+public enum Constants {
+    static let host: String = "https://canvas.rize.education"
+    static var clientID: String {
+        guard let path = Bundle.core.path(forResource: "Keys", ofType: "plist"),
+              let dict = NSDictionary(contentsOfFile: path) as? [String: String],
+              let clientID = dict["clientID"] else { return "" }
+
+        return clientID
+    }
+
+    static var clientSecret: String {
+        guard let path = Bundle.core.path(forResource: "Keys", ofType: "plist"),
+              let dict = NSDictionary(contentsOfFile: path) as? [String: String],
+              let secret = dict["clientSecret"] else { return "" }
+
+        return secret
+    }
+}

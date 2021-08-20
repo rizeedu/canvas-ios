@@ -29,7 +29,7 @@ public class LoadingViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .backgroundLightest
-        logoView?.tintColor = .currentLogoColor()
+        logoView?.tintColor = .rizeBlue
     }
 
     public override func viewDidAppear(_ animated: Bool) {

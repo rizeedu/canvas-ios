@@ -82,3 +82,4 @@ scripts/Package.resolved
 # Secrets
 **/*.xcassets/Secrets/*.dataset
 .bitrise.secrets.yml
+Keys.plist

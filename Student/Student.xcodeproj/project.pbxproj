@@ -3546,7 +3546,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = GradesWidget/Info.plist;
@@ -3555,7 +3556,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.GradesWidget;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rize.student.GradesWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -3580,7 +3582,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = GradesWidget/Info.plist;
@@ -3589,7 +3592,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.GradesWidget;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rize.student.GradesWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -3718,8 +3722,9 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Student/Info.plist;
@@ -3727,8 +3732,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rize.student;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -3748,8 +3753,9 @@
 				CODE_SIGN_ENTITLEMENTS = Student/Student.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Student/Info.plist;
@@ -3757,8 +3763,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rize.student;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Student/Student-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -3776,7 +3782,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = StudentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3806,7 +3812,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = StudentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3835,7 +3841,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = StudentUnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3865,7 +3871,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = StudentUnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3893,7 +3899,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = SubmitAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3901,9 +3908,10 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.SubmitAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rize.student.SubmitAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -3923,7 +3931,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = SubmitAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3931,8 +3940,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.SubmitAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rize.student.SubmitAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -3949,7 +3959,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = SubmitAssignmentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3977,7 +3987,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = SubmitAssignmentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4008,7 +4018,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Widgets/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -4020,7 +4030,7 @@
 				MARKETING_VERSION = 0.0.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.widgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rize.student.widgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -4044,7 +4054,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Widgets/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -4055,7 +4065,7 @@
 				);
 				MARKETING_VERSION = 0.0.1;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.instructure.icanvas.widgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rize.student.widgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -4074,7 +4084,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = StudentE2ETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4104,7 +4114,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = S9YHFZ47TK;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = StudentE2ETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

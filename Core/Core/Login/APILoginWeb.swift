@@ -30,7 +30,7 @@ struct LoginWebRequest: APIRequestable {
         var items: [APIQueryItem] = [
             .value("client_id", clientID),
             .value("response_type", "code"),
-            .value("redirect_uri", "https://canvas/login"),
+            .value("redirect_uri", "urn:ietf:wg:oauth:2.0:oob"),
             .value("mobile", "1"),
         ]
 
